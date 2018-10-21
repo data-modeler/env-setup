@@ -11,7 +11,7 @@ git clone https://github.com/data-modeler/env-setup.git
 
 Then run:
 ```
-source ~/environ-setup.sh
+source env-setup/environ-setup.sh
 ```
 
 This will install python and configure virtual environments with `virtualenvwrapper`, install and configure vim and tmux, configure other basic settings, and install Docker.
