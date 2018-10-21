@@ -6,19 +6,19 @@ sudo apt-get upgrade -y
 sudo apt-get install -y vim tmux curl
 
 # install python virtualenv
-sudo apt-get install -y python python-setuptools python-pip
+sudo apt-get install -y python python-distutils python-setuptools python-pip
 pip install virtualenvwrapper
 pip install jedi
 pip install pylint
 
 # copy files to home directory
-cd ~/ && mkdir venv
-mkdir development
 cp .bash_prompt ~/.bash_prompt
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
 cp .envrc ~/.envrc
 cp .bash_profile ~/.bash_profile
+cd ~/ && mkdir venv
+mkdir development
 echo "" >> .profile
 echo "# load .bash_profile" >> .profile
 echo "source .bash_profile" >> .profile
