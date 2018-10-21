@@ -6,7 +6,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y vim tmux curl
 
 # install python virtualenv
-sudo apt-get install -y python python-distutils python-setuptools python-pip
+sudo apt-get install -y python python3-distutils python-setuptools python-pip
 pip install virtualenvwrapper
 pip install jedi
 pip install pylint
