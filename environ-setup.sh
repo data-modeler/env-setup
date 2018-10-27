@@ -6,10 +6,10 @@ sudo apt-get upgrade -y
 sudo apt-get install -y vim tmux curl
 
 # install python virtualenv
-sudo apt-get install -y python python3-distutils python-setuptools python-pip
+sudo apt-get install -y python python3-distutils python-setuptools python-pip python3-pip
 pip install virtualenvwrapper
-pip install jedi
-pip install pylint
+pip3 install jedi
+pip3 install pylint
 
 # copy files to home directory
 cp .bash_prompt ~/.bash_prompt
@@ -20,8 +20,8 @@ cp .bash_profile ~/.bash_profile
 cd ~/ && mkdir venv
 mkdir development
 echo "" >> .profile
-echo "# load .bash_profile" >> .profile
-echo "source .bash_profile" >> .profile
+echo "# load .bash_profile" >> .bashrc
+echo "source .bash_profile" >> .bashrc
 
 # install vim packages
 # pathogen
