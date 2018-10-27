@@ -7,6 +7,6 @@ export PIP_REQUIRE_VIRTUALENV=true
 
 test -f ~/.envrc && source ~/.envrc
 
-source ~/.local/bin/virtualenvwrapper.sh
+test -f ~/.local/bin/virtualenvwrapper.sh && source ~/.local/bin/virtualenvwrapper.sh
 
-source ~/.bash_prompt
+test -f ~/.bash_prompt && source ~/.bash_prompt
