@@ -35,6 +35,12 @@ git clone git://github.com/altercation/vim-colors-solarized.git
 # jedi
 git clone git://github.com/davidhalter/jedi-vim.git
 
+# install aws cli
+cd ~/
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
 # install Docker dependencies
 sudo apt install -y apt-transport-https ca-certificates software-properties-common
 
