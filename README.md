@@ -40,3 +40,10 @@ ssh-add ~/.ssh/id_rsa
 sudo apt-get install -y xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
+#### Configure git
+(Optional) While logged in, browse to https://github.com/settings/emails and copy the private email address.
+Then:
+```bash
+git config --global user.email "<PASTE EMAIL HERE>"
+git config --global user.name "<YOUR NAME HERE>"
+```
