@@ -16,6 +16,13 @@ source env-setup/environ-setup.sh
 
 This will install python and configure virtual environments with `virtualenvwrapper`, install and configure vim and tmux, configure other basic settings, and install Docker.
 
+
+### Configure AWS
+To add aws keys, run
+```bash
+aws configure
+```
+
 ### Set up git ssh
 Follow the directions here: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent for more details, or follow these abridged instructions.
 
