@@ -21,7 +21,7 @@ cd ~/ && mkdir venv
 mkdir development
 echo "" >> .profile
 echo "# load .bash_profile" >> .bashrc
-echo "source .bash_profile" >> .bashrc
+echo "source ~/.bash_profile" >> .bashrc
 
 # install vim packages
 # pathogen
