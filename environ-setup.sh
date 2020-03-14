@@ -13,6 +13,7 @@ pip3 install pylint
 
 # copy files to home directory
 cp .bash_prompt ~/.bash_prompt
+cp .bash_git_prompt ~/.bash_git_prompt
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
 cp .envrc ~/.envrc
