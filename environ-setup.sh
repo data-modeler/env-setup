@@ -12,6 +12,7 @@ pip3 install jedi
 pip3 install pylint
 
 # copy files to home directory
+cd env-setup
 cp .bash_prompt ~/.bash_prompt
 cp .bash_git_prompt ~/.bash_git_prompt
 cp .tmux.conf ~/.tmux.conf
