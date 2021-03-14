@@ -7,9 +7,9 @@ sudo apt-get install -y vim tmux curl
 
 # install python virtualenv
 sudo apt-get install -y python python3-distutils python-setuptools python-pip python3-pip
-sudo pip install virtualenvwrapper -y
-sudo pip3 install jedi -y
-sudo pip3 install pylint -y
+sudo pip install virtualenvwrapper
+sudo pip3 install jedi
+sudo pip3 install pylint
 
 # copy files to home directory
 cd env-setup
