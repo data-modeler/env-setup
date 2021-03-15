@@ -21,9 +21,9 @@ cp .envrc ~/.envrc
 cp .bash_profile ~/.bash_profile
 cd ~/ && mkdir venv
 mkdir development
-echo "" >> .profile
-echo "# load .bash_profile" >> .bashrc
+mv .bashrc .bashrc_default
 echo "source ~/.bash_profile" >> .bashrc
+echo "" >> .profile
 
 # install vim packages
 # pathogen
