@@ -1,3 +1,5 @@
+test -f ~/.bashrc_default && source ~/.bashrc_default
+
 # Ensure user-installed binaries take precedence
 export PATH=/usr/local/bin:$PATH
 
